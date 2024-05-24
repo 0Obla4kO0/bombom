@@ -10,7 +10,7 @@ function findN(arr) {
     }
 }
 
-const array = [2, 4, 6, 8, 10, 11];
+const array = [1, 3, 5, 7, 9, 10];
 const N = findN(array);
 
 fs.writeFile('result.txt', N !== undefined ? N.toString() : 'Число не найдено', (err) => {
